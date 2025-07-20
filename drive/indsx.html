@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flutter Debug Console</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 12px;
+            line-height: 1.5;
+            white-space: pre-wrap;
+            margin: 0;
+            padding: 8px;
+        }
+
+        .info {
+            color: #9cdcfe;
+        }
+
+        .success {
+            color: #6a9955;
+        }
+
+        .warning {
+            color: #dcdcaa;
+        }
+
+        .error {
+            color: #f44747;
+        }
+
+        .line {
+            color: #d4d4d4;
+        }
+    </style>
+</head>
+
+<body>
+    <span class="line">I/flutter (31994): Drive أحدث</span>
+    <span class="info">I/flutter (31994): ==========================================</span>
+    <span class="line">I/flutter (31994): قبل الرفع</span>
+    <span class="line">I/flutter (31994): التاريخ المحلي : 2025-07-08 01:20:43.000</span>
+    <span class="line">I/flutter (31994): التاريخ Drive : 2025-07-08 01:24:56.000</span>
+    <span class="info">I/flutter (31994): ==========================================</span>
+    <span class="info">I/flutter (31994): ℹ️ عدد التغييرات المستلمة: 32</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 0: 01:26:38 2025-07-08 - insert - operations</span>
+    <span class="warning">I/flutter (31994): ! تم تجاهل عملية مرتبطة بـ client_id قديم: 1</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في operations</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 1: 01:26:44 2025-07-08 - insert - operations</span>
+    <span class="warning">I/flutter (31994): ! تم تجاهل عملية مرتبطة بـ client_id قديم: 2</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في operations</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 2: 01:26:59 2025-07-08 - insert - operations</span>
+    <span class="warning">I/flutter (31994): ! تم تجاهل عملية مرتبطة بـ client_id قديم: 3</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في operations</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 3: 01:27:40 2025-07-08 - insert - customers</span>
+    <span class="success">I/flutter (31994): ✅ تم إدراج عميل جديد: 6</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 4: 01:27:53 2025-07-08 - insert - operations</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في operations</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 5: 01:28:05 2025-07-08 - insert - customers</span>
+    <span class="success">I/flutter (31994): ✅ تم إدراج عميل جديد: 7</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 6: 01:28:14 2025-07-08 - insert - operations</span>
+    <span class="warning">I/flutter (31994): ! تم تجاهل عملية مرتبطة بـ client_id قديم: 1</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في operations</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 7: 01:28:26 2025-07-08 - insert - operations</span>
+    <span class="warning">I/flutter (31994): ! تم تجاهل عملية مرتبطة بـ client_id قديم: 2</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في operations</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 8: 01:28:33 2025-07-08 - insert - operations</span>
+    <span class="warning">I/flutter (31994): ! تم تجاهل عملية مرتبطة بـ client_id قديم: 3</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في operations</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 9: 01:28:52 2025-07-08 - insert - operations</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في operations</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 10: 01:29:07 2025-07-08 - delete - customers</span>
+    <span class="success">I/flutter (31994): ✅ تم حذف 0 عملية مرتبطة من operations</span>
+    <span class="success">I/flutter (31994): ✅ تم حذف 1 سجل من customers</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 11: 01:29:32 2025-07-08 - insert - agent_operations</span>
+    <span class="warning">I/flutter (31994): ! تم تجاهل عملية مرتبطة بـ agent_id قديم: 1</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في agent_operations</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 12: 01:29:36 2025-07-08 - insert - agent_operations</span>
+    <span class="warning">I/flutter (31994): ! تم تجاهل عملية مرتبطة بـ agent_id قديم: 2</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في agent_operations</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 13: 01:29:44 2025-07-08 - insert - agent_operations</span>
+    <span class="warning">I/flutter (31994): ! تم تجاهل عملية مرتبطة بـ agent_id قديم: 3</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في agent_operations</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 14: 01:30:11 2025-07-08 - insert - agents</span>
+    <span class="success">I/flutter (31994): ✅ تم إدراج وكيل جديد: 6</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 15: 01:30:21 2025-07-08 - insert - agents</span>
+    <span class="success">I/flutter (31994): ✅ تم إدراج وكيل جديد: 7</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 16: 01:30:40 2025-07-08 - insert - agent_operations</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في agent_operations</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 17: 01:30:47 2025-07-08 - insert - agent_operations</span>
+    <span class="warning">I/flutter (31994): ! تم تجاهل عملية مرتبطة بـ agent_id قديم: 1</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في agent_operations</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 18: 01:30:52 2025-07-08 - insert - agent_operations</span>
+    <span class="warning">I/flutter (31994): ! تم تجاهل عملية مرتبطة بـ agent_id قديم: 2</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في agent_operations</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 19: 01:31:01 2025-07-08 - insert - agent_operations</span>
+    <span class="warning">I/flutter (31994): ! تم تجاهل عملية مرتبطة بـ agent_id قديم: 3</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في agent_operations</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 20: 01:31:10 2025-07-08 - delete - agents</span>
+    <span class="success">I/flutter (31994): ✅ تم حذف 0 عملية مرتبطة من operations</span>
+    <span class="success">I/flutter (31994): ✅ تم حذف 1 سجل من agents</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 21: 01:31:18 2025-07-08 - insert - agent_operations</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في agent_operations</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 22: 02:57:37 2025-07-08 - insert - agent_operations</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في agent_operations</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 23: 03:00:23 2025-07-08 - insert - daily_account</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في daily_account</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 24: 03:01:27 2025-07-08 - delete - daily_account</span>
+    <span class="success">I/flutter (31994): ✅ تم حذف 1 سجل من daily_account</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 25: 03:01:33 2025-07-08 - update - daily_account</span>
+    <span class="success">I/flutter (31994): ✅ تم تحديث 0 سجل في daily_account</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 26: 03:02:02 2025-07-08 - insert - my_box</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في my_box</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 27: 03:02:02 2025-07-08 - insert - daily_account</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في daily_account</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 28: 03:02:16 2025-07-08 - insert - my_box</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في my_box</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 29: 03:02:16 2025-07-08 - insert - daily_account</span>
+    <span class="success">I/flutter (31994): ✅ أُضيف سجل في daily_account</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 30: 03:02:20 2025-07-08 - update - my_box</span>
+    <span class="success">I/flutter (31994): ✅ تم تحديث 1 سجل في my_box</span>
+    <span class="info">I/flutter (31994): ℹ️ معالجة التغيير 31: 03:02:27 2025-07-08 - delete - my_box</span>
+    <span class="success">I/flutter (31994): ✅ تم حذف 1 سجل من my_box</span>
+    <span class="info">I/flutter (31994): 🧹 تم حذف 32 من change_log</span>
+    <span class="line">I/flutter (31994): Drive أحدث</span>
+    <span class="info">I/flutter (31994): ==========================================</span>
+    <span class="line">I/flutter (31994): بعد الرفع</span>
+    <span class="line">I/flutter (31994): التاريخ المحلي : 2025-07-08 03:34:09.000</span>
+    <span class="info">I/flutter (31994): ==========================================</span>
+</body>
+
+</html>
