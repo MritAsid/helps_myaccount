@@ -1,11 +1,1 @@
-{
-    "updated_at": "2025-06-22",
-    "aden": {
-        "usd_to_yer": 2712,
-        "sar_to_yer": 731
-    },
-    "sanaa": {
-        "usd_to_yer": 535,
-        "sar_to_yer": 139.5
-    }
-}
+{"updated_at":"2025-07-21T03:44:14.817470","aden":{"usd_to_yer":800.0,"sar_to_yer":0.0},"sanaa":{"usd_to_yer":0.0,"sar_to_yer":0.0}}
